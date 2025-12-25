@@ -29,9 +29,17 @@ sudo pacman -S pipewire pipewire-pulse pipewire-jack wireplumber
 ```
 
 ## Network
+
+### Network Manager
 ```bash
 sudo pacman -S networkmanager # should already be installed
 
 nmcli device wifi list
 nmcli device wifi connect SSID_or_BSSID password password
+```
+
+### Firewall
+```bash
+sudo pacman -S firewalld
+sudo systemctl enable firewalld
 ```
