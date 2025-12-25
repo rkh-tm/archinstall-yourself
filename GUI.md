@@ -10,6 +10,8 @@ vulkan-radeon
 ```bash
 sudo pacman -S wayland \ # display server
 hyprland \ # wayland compositor
+waybar \ # top bar
+hyprpaper \ # wallpaper
 sddm \ # display manager
 xdg-user-dirs \ # default directories (e.g ~/Downloads)
 noto-fonts \ # basic font
