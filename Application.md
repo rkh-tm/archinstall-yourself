@@ -50,3 +50,8 @@ cd visual-studio-code-bin
 makepkg -s # -s to install dependencies
 pacman -U vscode_package
 ```
+
+## Screenshot
+```bash
+sudo pacman -S grim slurp wl-clipboard
+```
