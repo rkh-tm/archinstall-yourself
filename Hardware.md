@@ -43,3 +43,10 @@ nmcli device wifi connect SSID_or_BSSID password password
 sudo pacman -S firewalld
 sudo systemctl enable firewalld
 ```
+
+## Security
+### Keyring
+```bash
+sudo pacman -S gnome-keyring libsecret
+# follow https://code.visualstudio.com/docs/configure/settings-sync#_recommended-configure-the-keyring-to-use-with-vs-code
+```
