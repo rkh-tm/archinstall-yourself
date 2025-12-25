@@ -18,4 +18,5 @@ noto-fonts \ # basic font
 kitty # terminal
 
 sudo systemctl enable ssdm
+xdg-user-dirs-update
 ```
