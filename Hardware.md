@@ -27,3 +27,11 @@ sudo pacman -S alsa-utils # alsa tools
 
 sudo pacman -S pipewire pipewire-pulse pipewire-jack wireplumber
 ```
+
+## Network
+```bash
+sudo pacman -S networkmanager # should already be installed
+
+nmcli device wifi list
+nmcli device wifi connect SSID_or_BSSID password password
+```
