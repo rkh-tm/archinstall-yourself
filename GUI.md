@@ -1,0 +1,18 @@
+# Setting up GUI
+
+## GPU Drivers
+```bash
+sudo pacman -S mesa \ # AMD openGL
+vulkan-radeon
+```
+
+## Base Desktop "Environment"
+```bash
+sudo pacman -S wayland \ # display server
+hyprland \ # wayland compositor
+sddm \ # display manager
+xdg-user-dirs \ # default directories (e.g ~/Downloads)
+noto-fonts # basic font
+
+sudo systemctl enable ssdm
+```
