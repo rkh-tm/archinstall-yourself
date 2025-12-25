@@ -87,8 +87,8 @@ ln -sf /usr/share/zoneinfo/Area/Location /etc/localtime # Asia/Jakarta
 hwclock --systohc
 
 # Localization
-locale-gen
-nvim /etc/locale.conf # LANG=id_ID.UTF-8
+sudo nano /etc/locale.gen # uncomment preferred locale
+sudo locale-gen
 
 # Hostname
 nvim /etc/hostname # tamarch
