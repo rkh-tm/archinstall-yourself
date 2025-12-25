@@ -1,4 +1,4 @@
-# Configuring Hardware and Drivers
+# Configuring Hardware
 
 ## Power Management
 
