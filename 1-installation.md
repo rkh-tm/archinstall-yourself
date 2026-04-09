@@ -11,7 +11,7 @@ This will include all my personal settings (I won't be using custom made dotfile
 > https://wiki.archlinux.org/title/Installation_guide
 
 ### 1. Installing ISO
-Download ISO from the **torrent** provided in https://arcraiders.wiki
+Download ISO from the **torrent** provided in https://archlinux.org/download/
 
 ### 2. Load ISO into USB
 Use **rufus** to create a live USB
